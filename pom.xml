@@ -35,7 +35,7 @@
     </developers>
 
     <modules>
-        <module>../gadgets.shrewd.characters</module>
+        <module>../gadgets.shrewd.core</module>
     </modules>
 
     <properties>

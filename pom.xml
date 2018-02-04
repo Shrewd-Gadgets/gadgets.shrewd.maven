@@ -16,7 +16,7 @@
 
     <licenses>
       <license>
-        <name>The Unlicese</name>
+        <name>The Unlicense</name>
         <url>https://choosealicense.com/licenses/unlicense/</url>
         <distribution>repo</distribution>
       </license>
@@ -40,9 +40,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <!-- Maven Repository Distribution Extension -->
-        <aws-maven.version>5.0.0.RELEASE</aws-maven.version>
 
         <!-- dependencies -->
         <junit.version>5.0.3</junit.version>
@@ -74,14 +71,6 @@
                 </executions>
             </plugin>
         </plugins>
-        <extensions>
-            <!-- Transport artifacts to S3 -->
-            <extension>
-                <groupId>org.springframework.build</groupId>
-                <artifactId>aws-maven</artifactId>
-                <version>${aws-maven.version}</version>
-            </extension>
-        </extensions>
     </build>
 
     <dependencyManagement>
@@ -111,6 +100,7 @@
                 <version>${powermock.version}</version>
                 <scope>test</scope>
             </dependency>
+        </dependencies>
     </dependencyManagement>
 
 </project>

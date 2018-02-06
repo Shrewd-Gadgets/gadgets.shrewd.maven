@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
+        <module name="gui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="characters" target="1.8" />
       <module name="core" target="1.8" />
+      <module name="gui" target="1.8" />
       <module name="parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>

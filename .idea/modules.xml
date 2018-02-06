@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../gadgets.shrewd.core/core.iml" filepath="$PROJECT_DIR$/../gadgets.shrewd.core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gadgets.shrewd.gui/gui.iml" filepath="$PROJECT_DIR$/../gadgets.shrewd.gui/gui.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
     </modules>
   </component>
